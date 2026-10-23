@@ -1,0 +1,253 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<link href="icono.ico" rel="icon"/> <!--Para colocar el icono-->
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="animacion.css" rel="stylesheet" type="text/css">
+<script src="processing.js"></script><!-- para insertar un processing-->
+<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#2E4683);
+  textSize(50);
+}
+void draw(){
+  background(#2E4683);
+  int h= hour();
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+
+
+BIENVENIDO A MI PRIMERA PÁGINA WEB
+<BR>
+</head>
+
+<body>
+<header><center><big><big><big><big><font color="RED"> ESTAMOS INTENTANDO HACER OTRA PÁGINA WEB PARA EL INSTI EN HTML</HEADER></font></big></big></big></big></center>
+<BR>
+<div id="aviso">TIC ES SÚPER DIVERTIDO </div>
+<br><br><br><br><div id="info">VOY A APROBAR LA PAU </div>
+<canvas id="pjsCanvas">b</canvas>
+<br><br><div id="html"><img id="html" src="codigo-fuente-e1554759455373.jpg"> </div> </img>
+
+
+<main>
+<br> <b> Este texto lo voy a poner en negrita </b>
+<br><i> Este texto lo voy a poner en cursiva </i>
+<br><U> Voy a poner mi nombre: David Beltrán </U>
+<br><MARK> Este texto quedará chachi piruli porque se hace un enmarcado diferente <MARK>
+
+<center><br> <b> Este texto lo voy a poner en negrita </b>
+<br><i> Este texto lo voy a poner en cursiva </i>
+<br><U> Voy a poner mi nombre: David Beltrán </U>
+<br><MARK> Este texto quedará chachi piruli porque se hace un enmarcado diferente <MARK>
+</center>
+
+<div align="right">
+<br> <b> Este texto lo voy a poner en negrita </b>
+<br><i> Este texto lo voy a poner en cursiva </i>
+<br><U> Voy a poner mi nombre: David Beltrán </U>
+<br><MARK> Este texto quedará chachi piruli porque se hace un enmarcado diferente <MARK>
+</div>
+
+<br><p>Para hacer un nuevo párrafo utilizo la etiqueta p. Pero no me apetece contarte un tocho impresionante así que lo voy a dejar por aquí, me quiero morir solo de pensar la cantidad de exámenes que me esperan. </p>
+
+	<br>
+	<p class="vamosaensayar"> Vamos a insertar un párrafo antes de las listas y editarlo de color verde </p>
+</main>
+<p id="puntodos" enlace interno> </p>
+<center><font color="BLUE"><BIG><BIG><BIG>AHORITA NOS VAMOS A PONER A HACER LISTAS LA NETA WEY</FONT></center></big></big></big>
+
+<UL>LISTA DE LOS NIÑOS DE LA CLASE</UL>
+	<BR><UL><LI>
+PRIMERA FILA SIN VIÑETA (nos pondrá una viñeta por defecto)
+
+<LI>NOS PONDRÁ OTRA SEGUNDA FILA POR DEFECTO</li></ul>
+
+<u>OTRA SEGUNDA LISTA</u>
+
+<ul><li type="square"> primera fila de esta nueva lista con cuadrado</li>
+<li type="square"> segunda fila de esta nueva lista con círculo</li>
+<li type="square"> tercera fila de esta nueva lista con círculo</li></ul>
+
+<u>OTRA TERCERA LISTA</u>
+
+<ul><li type="circle"> primera fila de esta nueva lista con cuadrado</li>
+<li type="circle"> segunda fila de esta nueva lista con círculo</li>
+<li type="circle"> tercera fila de esta nueva lista con círculo</li></ul>
+
+<u>OTRA CUARTA LISTA</u>
+
+<ul><li type="disc"> primera fila de esta nueva lista con cuadrado</li>
+<li type="disc"> segunda fila de esta nueva lista con círculo</li>
+<li type="disc"> tercera fila de esta nueva lista con círculo</li></ul>
+
+UNA QUINTA LISTA PERO UN POQUITO MÁS DIVERTIDO, PARA QUE NO SEA UN TOSTÓN Y SEA UN POCO MÁS AMENO. Con la combinación de teclas Windows + .(punto) se pueden añadir emoticonos al código
+
+<ul>👻 Primera fila para introducir </ul>
+<ul>😏 Segunda fila para continuar </ul>
+<ul>😌 Tercera fila para terminar este maravilloso trabajo y recibir un 10 </ul>
+
+<center><font color="BLUE"><BIG><BIG><BIG> AHORITA NOS VAMOS A PONER A HACER LISTAS PERO ORDENADAS (ESTA ES LA DEFAULT)</font></center></big></big></big>
+
+<ol>
+	<li>Texto para un apartado de una lista</li>
+	<li>Texto para un segundo apartado de una lista</li>
+	<li>Texto para un tercero apartado de una lista</li>
+	<li>Texto para un cuarto apartado de una lista</li>
+</ol>
+	<center><font color="BLUE"><BIG><BIG><BIG> ESTA LISTA VA A SER NUMERAL</font></center></big></big></big>
+<ol type="1">
+	<li>Texto para un apartado de una lista</li>
+	<li>Texto para un segundo apartado de una lista</li>
+	<li>Texto para un tercero apartado de una lista</li>
+	<li>Texto para un cuarto apartado de una lista</li>
+</ol>
+
+	<center><font color="BLUE"><BIG><BIG><BIG> ESTA LISTA VA A SER ALFABÉTICA</font></center></big></big></big>
+<ol type="A">
+	<li>Texto para un apartado de una lista</li>
+	<li>Texto para un segundo apartado de una lista</li>
+	<li>Texto para un tercero apartado de una lista</li>
+	<li>Texto para un cuarto apartado de una lista</li>
+</ol>
+
+	<center><font color="BLUE"><BIG><BIG><BIG> ESTA LISTA VA A SER EN NÚMEROS ROMANOS</font></center></big></big></big>
+<ol type="I">
+	<li>Texto para un apartado de una lista</li>
+	<li>Texto para un segundo apartado de una lista</li>
+	<li>Texto para un tercero apartado de una lista</li>
+	<li>Texto para un cuarto apartado de una lista</li>
+</ol>
+
+	<center><font color="BLUE"><BIG><BIG><BIG> ESTA LISTA VA A SER EN NÚMEROS ROMANOS PERO EMPEZANDO EN EL 5 (V)</font></center></big></big></big>
+<ol type="I">
+	<li value="5">Texto para un apartado de una lista</li>
+	<li>Texto para un segundo apartado de una lista</li>
+	<li>Texto para un tercero apartado de una lista</li>
+	<li>Texto para un cuarto apartado de una lista</li>
+</ol>
+
+<center><font color="BLUE"><BIG><BIG><BIG> AHORITA NOS VAMOS A PONER A HACER TABLAS</font></center></big></big></big>
+
+<br>
+<center>
+<table class="tabla">
+<caption><i><b><big><big> Mi primera tablita en html <U>SIN BORDES</u></i></b></big></big> </caption>
+	<tr>
+		<td> Celda 1 </td>
+		<td> Celda 2 </td>
+	</tr>
+	<tr>
+		<td> Celda 3 </td>
+		<td> Celda 4 </td>
+	</tr>
+</table>
+</center>
+</br>
+
+<br>
+<center>
+<table border="1">
+<caption><big><Big><i><b> Mi primera tablita en html <U>CON BORDES</u></big></big></i></b></caption>
+	<tr>
+		<td> Celda 1 </td>
+		<td> Celda 2 </td>
+	</tr>
+	<tr>
+		<td> Celda 3 </td>
+		<td> Celda 4 </td>
+	</tr>
+</table>
+</center>
+</br>
+
+<br>
+<center>
+<table border="1">
+<caption> Mi segunda tablita en html <U> CON BORDES Y COMBINANDO FILAS Y COLUMNAS CON AYUDA DE LA PROFE </U> </caption>	
+	<tr>
+		<td colspan=3> Celda combinando 3 columnas </td>
+	</tr>
+	<tr>
+		<td rowspan=2> Celda combinando 2 filas </td>
+		<td> Celda normal 1</td>
+		<td> Celda normal 2</td>
+	</tr>
+	<tr>
+		<td> Celda normal 3</td>
+		<td> Celda normal 4</td>
+	</tr>
+</table>
+</center>
+</br>
+
+<br>
+<center><big><big><big><big><font color="red">IMAGEN DESCARGADA DE INTERNET</big></big></big></big></br></font>
+<br><br>
+
+<img src="codigo-fuente-e1554759455373.jpg" width="700" border="0" height="400" align="left"></br></br></center> </img>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<center><big><big><big><big> <font color="red">AHORA VAMOS A PONER LA MISMA IMAGEN DE INTERNET</font></big></big></big></big></big></center>
+<center><big><big><big><big><font color="red">PERO SIN BORDES Y ALINEADA A LA DERECHA, REDUCIDA EN ANCHURA Y ALTURA</font></big></big></big></big></big></center>
+<br><br>
+
+<img src="codigo-fuente-e1554759455373.jpg" width="500" border="0" height="267" align="right"></br></br></center> </img>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<br><center><i><big><big><big><big><a href="https://www.google.es "> Esto te manda a Google Chrome </a></big></big></big></big></i></center></br>
+<br><center><b><big><big><big><big><a href="https://www.google.es " target="_blank"> Esto te manda a la página principal de Google Chrome</a></big></big></big></big></b></center></br>
+<br><center><i><big><big><big><big><a href="COMO UTILIZAR EL TECLADO. sin formato (3).docx"> Esto te descarga un bonito documento Word</a></big></big></big></big></i></center></br>
+<br><center><b><big><big><big><big><a href="Mi primera página web.html "> Esto te manda a mi página web </a></big></big></big></big></b></center></br>
+<br><center><i><big><big><big><big><a href="#puntodos"> Esto te manda a las listas del principio por si no te acuerdas </a></big></big></big></big></i></center></br>
+<br>
+<center><audio src="canciona.mp3" controls ></br></audio>
+<br><br>
+<audio src="cancion.mp3" controls> </br></audio>
+<br><br><br><br><br>
+<video src="canciona.mp4" width="640" height="360" controls></video></br></br></br></br></br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.779341416029!2d35.23467209180949!3d31.77650376978577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x150329c939ceab8f%3A0x83ad5efed1777179!2sMuro%20de%20las%20Lamentaciones!5e0!3m2!1ses!2ses!4v1791287674175!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></center>
+
+<br><br><br><br><br><br><br>
+</body>
+
+<nav id="menuhorizontal"><big><big><big>
+	<ul><center>
+		<li><a href="HTML y CSS.pdf"> Botón uno</li></a>
+		<li>Botón dos</li>
+		<li>Botón tres</li>
+	</ul></center>
+</nav></big></big></big>
+<br><br><br><br><br><br>
+<nav id="menud">
+	<ul>
+		<li><big>Menu</big>
+		<ul>
+			<li>Botón 1</li>
+			<li>Botón 2
+			<ul>
+			<li><a href="HTML y CSS.pdf" target="_blank">Botón 2.1</a></li>
+			<li>Botón 2.2</li>
+			</ul>
+			<li>Botón 3</li>
+		</ul>
+		</li>
+	</ul>
+</nav>
+
+
+<footer>
+<br><br><br><br><br><br>ADIÓS COMPAI UN PLACER</big></big></big></big></big>
+
+</footer>
+
+<br><br> 
+
+</html>
+
+

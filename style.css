@@ -1,0 +1,85 @@
+header{
+	color: blue;
+	background-color: #00FF7F;
+	text-align: center;
+	font-size: 30px;
+	}
+
+body{
+	color: spreengreen;
+	background-color: #C0C0C0;
+	}
+p{
+	font-family: Arial;
+	font-size: 20px;
+	color: red;
+	text-align: center;
+	}
+	
+footer{
+	font-family: Arial;
+	font-size: 30px;
+	color: blue;
+	text-align: center;
+}
+.vamosaensayar {
+	font-family: Arial;
+	font-size: 40px;
+	color: green;
+	text-align: center;
+	}
+	
+#menuhorizontal ul {
+	border-bottom-color: #3F9E85;
+	border-bottom-style: solid;
+	border-bottom-width: 50px;
+}
+#menuhorizontal ul li {
+	display: inline;
+	padding: 2px 7px;
+	margin: 5px;
+	background-color:#27F56C;
+	color:white;
+	
+}
+	
+#menuhorizontal ul li:hover{
+	background-color:#F2F527;
+	cursor: pointer;
+}
+
+#menud a{ /*quitar el subrayado del enalce*/
+	text-decoration: none;
+	color: inherit;
+	}
+
+#menud ul li{ /*formato de los botones*/
+	width: 100px;
+	height: 25px;
+	display:inline-block; /*en línea pero respetando márgenes*/
+	padding: 2px 7px;
+	margin: 5px;
+	background:#800080;
+	color:white;
+	text-align:center;
+	font-family:"comic sans MS";
+	font-size:16px;
+	position: relative;
+}
+
+#menud ul li:hover{
+	background-color:grey;
+	color:purple;
+}
+
+#menud li>ul{
+	display: none;/*oculta las listas anidadas, los submenús*/
+}
+#menud li:hover>ul{ /*muestra los submenú al pasar por encima del menú*/
+	display: inline-block; /*muestra los submenú más abajo que el otro*/
+	position:absolute
+}
+	
+
+	
+	
