@@ -1,16 +1,95 @@
-header{
-	font-size: 28px;
-	
-	
+body {
+	color:#7DC7DE;
+	background-color: #F6F2EE;
 }
-body  {
-	background-color: #E9D49F;
-	font-family: Helvetica;
-	font-size: 10px;
-	}
-	
-#lista {
-	color:red;
+
+#tit{
+	color: #7DC7DE;
+	background-color: #F6F2EE;
+	text-align: center;
+	font-size: 90px;
+}
+
+#nombre {
+	color:#7DC7DE;
+	background-color:#F6F2EE;
+	text-align:center;
+	font-size: 40px;
+
+}
+
+#indice {
+	color:#7DC7DE;
+	background-color: #F6F2EE;
+	text-align:center;
+	font-size: 58px;
 }
 	
-	
+.indiceia {
+	font-size: 30px;
+	color: #7DC7DE;
+	text-decoration: none;
+}
+#defi{
+	color: #7DC7DE;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 90px;
+	margin: 50px auto;	
+}
+.defis{
+	color:#077E9C;
+	background-color:#F6F2EE;
+	text-align:left;
+	font-size: 27px;
+	font-weight:normal;
+}
+
+#iniciodefi{
+	font-size:67px;
+	background-color:#7DC7DE;
+	width:46%;				/*Ancho del bloque*/
+	align-items:center;
+	margin: 50px auto;		/*Centra el bloque horizontalmente*/
+	text-align: center;
+	font-family: Arial;
+}
+
+#clasificacion{
+	color:#7DC7DE;
+	background-color: #F6F2EE;
+	margin-left:7%;
+	font-size: 50px;
+}
+
+.histo{
+	color:#077E9C;
+	background-color:#F6F2EE;
+	text-align:left;
+	font-size: 27px;
+	font-weight:normal;
+}
+
+.aplis{
+	color:#077E9C;
+	background-color:#F6F2EE;
+	text-align:left;
+	font-size: 27px;
+	font-weight:normal;
+}
+
+.futu{
+	color:#077E9C;
+	background-color:#F6F2EE;
+	text-align:left;
+	font-size: 27px;
+	font-weight:normal;
+}
+
+.tipos{
+	color:#077E9C;
+	background-color:#F6F2EE;
+	text-align:left;
+	font-size: 27px;
+	font-weight:normal;
+}
